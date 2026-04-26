@@ -31,7 +31,7 @@ Les équipes support traitent chaque jour des tickets répétitifs : suivi de co
 - Les cas sensibles (remboursement, litige) sont détectés automatiquement et transmis à un agent humain avec le contexte déjà préparé.
 - Les messages non pertinents (spam, bots) sont filtrés et fermés sans intervention humaine.
 
-**Pour un recruteur :** ce projet montre la capacité à concevoir, assembler et faire fonctionner un système IA complet — pas seulement appeler une API.
+**Ce projet montre la capacité à concevoir, assembler et faire fonctionner un système IA complet.**
 
 ---
 
