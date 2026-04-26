@@ -1,0 +1,7 @@
+{
+  "from_email": "alice.martin@gmail.com",
+  "to_email": "support@velore.fr",
+  "sender": "Alice Martin",
+  "subject": "Ma commande est en retard — aucune nouvelle depuis 8 jours",
+  "body": "Bonjour, j'ai passé une commande le 17 avril (numéro #VL-48291) et je n'ai toujours rien reçu. Le lien de suivi indique que le colis est en transit depuis le 19 avril sans aucune mise à jour depuis. Nous sommes le 25 avril, soit 8 jours plus tard. Je n'ai reçu aucun email d'information de votre part. Est-ce que ma commande est perdue ? Que se passe-t-il ? Merci de me tenir informée. Cordialement, Alice Martin"
+}
