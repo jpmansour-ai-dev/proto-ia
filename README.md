@@ -13,7 +13,7 @@
 
 Un Proof of Concept (POC) qui automatise le traitement des tickets client. Un email client entre dans le système, trois analyses IA s'exécutent simultanément, et le ticket ressort avec une réponse rédigée automatiquement — ou transmis à un agent humain si le cas le nécessite. Chaque décision est tracée et consultable via API.
 
-> *Projet de démonstration — non déployé en production. L'objectif est de prouver que chaque composant fonctionne, que l'architecture est solide, scalable, et que le système est prêt à être étendu.*
+> *Projet de démonstration — non déployé en production. L'objectif est de prouver que chaque composant fonctionne, que l'architecture est solide et scalable.*
 
 ---
 
