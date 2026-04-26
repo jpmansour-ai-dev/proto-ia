@@ -37,6 +37,7 @@ Les équipes support traitent chaque jour des tickets répétitifs : suivi de co
 
 ## Ce que j'ai construit
 
+```
 Email client
     │
     ▼
@@ -58,6 +59,7 @@ Email client
                                                   ├── Remboursement     → Escalade humaine
                                                   ├── Facturation       → Service facturation
                                                   └── Spam              → Fermeture automatique
+```
                                                   
 ![Architecture du workflow](workflow.png)
 
