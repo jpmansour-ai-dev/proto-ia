@@ -1,0 +1,26 @@
+[
+  {
+    "id": "pol-001",
+    "type": "policy",
+    "title": "Politique de retour et de remboursement",
+    "content": "Velore accepte les retours dans les 30 jours suivant la réception de la commande, sans justification requise. Les articles doivent être non portés, dans leur état d'origine, avec les étiquettes attachées. Les articles soldés, les sous-vêtements et les bijoux ne sont pas éligibles au retour pour des raisons d'hygiène. Le retour est gratuit pour les clients en France métropolitaine via étiquette prépayée. Pour les retours internationaux, les frais de retour sont à la charge du client sauf en cas d'article défectueux ou d'erreur de notre part. Le remboursement est effectué sur le moyen de paiement d'origine dans un délai de 5 à 7 jours ouvrables après réception et vérification de l'article. En cas d'article défectueux ou de mauvais article reçu, le retour est pris en charge et le remboursement traité en priorité sous 48 heures.",
+    "metadata": {
+      "category": "retours",
+      "tags": ["retour", "remboursement", "30 jours", "conditions", "article défectueux"],
+      "version": "1.2",
+      "last_updated": "2026-01-01"
+    }
+  },
+  {
+    "id": "pol-002",
+    "type": "policy",
+    "title": "Délais et conditions de livraison",
+    "content": "Les commandes passées avant 12h sont expédiées le jour même, hors week-ends et jours fériés. Les délais de livraison standard sont de 3 à 5 jours ouvrables en France métropolitaine et de 5 à 10 jours pour les livraisons internationales. La livraison express (24h) est disponible en France pour les commandes passées avant 10h, moyennant un supplément de 6,90 €. En cas de retard imputable au transporteur, Velore ouvre une enquête sous 24 heures et propose au client un renvoi ou un remboursement intégral selon sa préférence. Un colis est considéré perdu si aucune mise à jour de suivi n'est enregistrée pendant plus de 7 jours ouvrables. Les livraisons en point relais sont conservées 14 jours avant d'être retournées à l'expéditeur.",
+    "metadata": {
+      "category": "livraison",
+      "tags": ["livraison", "délais", "express", "retard", "colis perdu"],
+      "version": "2.0",
+      "last_updated": "2026-02-01"
+    }
+  }
+]

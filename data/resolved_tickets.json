@@ -1,0 +1,44 @@
+[
+  {
+    "id": "rt-001",
+    "type": "resolved_ticket",
+    "title": "Colis non reçu 10 jours après la commande",
+    "issue": "J'ai passé une commande il y a 10 jours et je n'ai toujours rien reçu. Le suivi indique que le colis est en transit depuis une semaine sans aucune mise à jour. Je commence à m'inquiéter.",
+    "resolution": "Enquête ouverte auprès du transporteur. Le colis était bloqué en centre de tri à la suite d'une erreur d'étiquetage. Réexpédition effectuée sous 24 heures. La cliente a reçu son colis 2 jours plus tard. Un bon de réduction de 10 % a été offert pour le désagrément.",
+    "content": "Colis non reçu après 10 jours, suivi bloqué en transit. Enquête transporteur : erreur d'étiquetage en centre de tri. Réexpédition effectuée, colis livré sous 2 jours. Bon de réduction accordé.",
+    "metadata": {
+      "intent": "product/question",
+      "escalated": false,
+      "resolution_time_hours": 4,
+      "tags": ["livraison", "colis perdu", "transporteur", "retard"]
+    }
+  },
+  {
+    "id": "rt-002",
+    "type": "resolved_ticket",
+    "title": "Remboursement non reçu 3 semaines après le retour",
+    "issue": "J'ai retourné une veste il y a 3 semaines. J'ai bien le récépissé de dépôt en point relais. Mais je n'ai toujours pas été remboursée sur ma carte bancaire. Qu'est-ce qui se passe ?",
+    "resolution": "Le colis de retour avait bien été reçu à l'entrepôt mais coincé dans la file de validation à la suite d'une erreur de traitement interne. Le remboursement a été déclenché manuellement dès la détection du problème. La cliente a été remboursée intégralement sous 48 heures. Excuses présentées et bon de 15 € offert.",
+    "content": "Retour reçu à l'entrepôt mais remboursement bloqué suite à une erreur de traitement interne. Remboursement déclenché manuellement, effectué sous 48 heures. Bon de 15 € offert en geste commercial.",
+    "metadata": {
+      "intent": "refund/request",
+      "escalated": false,
+      "resolution_time_hours": 2,
+      "tags": ["remboursement", "retour", "délai", "virement"]
+    }
+  },
+  {
+    "id": "rt-003",
+    "type": "resolved_ticket",
+    "title": "Mauvais article reçu dans la commande",
+    "issue": "J'ai commandé une robe bleue en taille M et j'ai reçu un pantalon noir en taille L qui ne m'appartient pas. Le bon de livraison dans le colis correspond bien à ma commande, mais le contenu ne correspond pas.",
+    "resolution": "Erreur de picking confirmée de notre côté. Étiquette de retour prépayée envoyée immédiatement. Le bon article a été réexpédié en livraison express sans frais supplémentaires. La cliente a reçu sa commande correcte 2 jours plus tard. Excuses présentées.",
+    "content": "Mauvais article reçu suite à une erreur de picking en entrepôt. Étiquette de retour envoyée immédiatement, bon article réexpédié en express. Reçu sous 2 jours.",
+    "metadata": {
+      "intent": "product/question",
+      "escalated": false,
+      "resolution_time_hours": 1,
+      "tags": ["mauvais article", "erreur commande", "échange", "livraison express"]
+    }
+  }
+]

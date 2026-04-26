@@ -1,0 +1,38 @@
+[
+  {
+    "id": "kb-001",
+    "type": "knowledge_base",
+    "title": "Suivre ma commande et que faire si elle n'arrive pas",
+    "content": "Dès l'expédition de votre commande, un email de confirmation vous est envoyé avec un lien de suivi. Vous pouvez également retrouver ce lien à tout moment dans Mon compte > Mes commandes. Le délai de livraison standard est de 3 à 5 jours ouvrables en France métropolitaine, et de 5 à 10 jours pour les livraisons à l'international. Si le suivi indique que votre colis est livré mais que vous ne l'avez pas reçu, commencez par vérifier autour de votre boîte aux lettres, auprès de vos voisins ou en bureau de poste — une tentative de livraison manquée génère parfois un avis de passage. Si le colis reste introuvable 48 heures après la date de livraison indiquée, contactez notre service client : nous ouvrons une enquête auprès du transporteur sous 24 heures et vous proposons un renvoi ou un remboursement selon votre préférence.",
+    "metadata": {
+      "category": "livraison",
+      "tags": ["suivi", "livraison", "colis", "retard", "transporteur"],
+      "last_updated": "2026-03-10",
+      "applies_to": ["France", "International"]
+    }
+  },
+  {
+    "id": "kb-002",
+    "type": "knowledge_base",
+    "title": "Retourner un article et être remboursé",
+    "content": "Vous disposez de 30 jours à compter de la réception de votre commande pour retourner un article, sans avoir à vous justifier. L'article doit être dans son état d'origine, non porté et avec les étiquettes encore attachées. Pour initier un retour, rendez-vous dans Mon compte > Mes commandes > Retourner un article. Vous recevrez une étiquette de retour prépayée par email sous 24 heures. Une fois le colis déposé en point relais ou en bureau de poste, le remboursement est traité dans un délai de 5 à 7 jours ouvrables après réception et vérification de l'article dans notre entrepôt. Le remboursement est effectué sur le moyen de paiement d'origine. Si vous avez reçu un article défectueux ou ne correspondant pas à votre commande, le retour est bien sûr pris en charge et le remboursement prioritaire.",
+    "metadata": {
+      "category": "retours",
+      "tags": ["retour", "remboursement", "échange", "article défectueux", "délai"],
+      "last_updated": "2026-02-15",
+      "applies_to": ["France", "International"]
+    }
+  },
+  {
+    "id": "kb-003",
+    "type": "knowledge_base",
+    "title": "Modifier ou annuler une commande",
+    "content": "Vous pouvez modifier ou annuler votre commande dans les 2 heures suivant sa validation, tant qu'elle n'a pas encore été transmise à notre entrepôt. Pour ce faire, rendez-vous dans Mon compte > Mes commandes et cliquez sur Modifier ou Annuler. Passé ce délai, la commande est en cours de préparation et ne peut plus être modifiée directement. Si vous souhaitez tout de même l'annuler, contactez notre service client le plus rapidement possible : nous ferons le nécessaire si la commande n'a pas encore été expédiée. Si la commande est déjà partie, vous pourrez effectuer un retour dès réception dans les conditions habituelles. En cas de double commande accidentelle, signalez-le nous immédiatement et nous annulerons l'un des deux envois.",
+    "metadata": {
+      "category": "commandes",
+      "tags": ["annulation", "modification", "commande", "délai", "double commande"],
+      "last_updated": "2026-01-20",
+      "applies_to": ["France", "International"]
+    }
+  }
+]
