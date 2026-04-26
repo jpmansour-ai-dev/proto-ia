@@ -19,7 +19,7 @@ Un Proof of Concept (POC) qui automatise le traitement des tickets client. Un em
 
 ## Démonstration
 
-![Démonstration du workflow](demo.gif)
+![Démonstration du workflow](assets/demo.gif)
 
 ---
 
@@ -61,7 +61,7 @@ Email client
                                                   └── Spam              → Fermeture automatique
 ```
                                                   
-![Architecture du workflow](workflow.png)
+![Architecture du workflow](assets/workflow.png)
 
 ### Flux détaillé
 
