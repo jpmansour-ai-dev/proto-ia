@@ -1,6 +1,6 @@
 # Support Client IA
 
-**Automatisation du traitement de tickets client par IA — démonstrateur technique end-to-end**
+**Automatisation du traitement de tickets client par IA — démonstrateur technique complet**
 
 ![Python](https://img.shields.io/badge/Python-3.13%2B-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.123-009688)
