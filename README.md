@@ -25,11 +25,11 @@ Un Proof of Concept (POC) qui automatise le traitement des tickets client. Un em
 
 ## Pourquoi c'est utile ?
 
-Les équipes support traitent chaque jour des tickets répétitifs : suivi de commande, demande de remboursement, problème de compte. Ce système automatise ce premier niveau de traitement :
+Les équipes de support client traitent chaque jour des tickets répétitifs : suivi de commande, demande de remboursement, problème de compte. Ce système IA automatise ce premier niveau de traitement :
 
-- Les questions courantes reçoivent une réponse immédiate, rédigée à partir de la base de connaissances de l'entreprise — sans improvisation.
-- Les cas sensibles (remboursement, litige) sont détectés automatiquement et transmis à un agent humain avec le contexte déjà préparé.
-- Les messages non pertinents (spam, bots) sont filtrés et fermés sans intervention humaine.
+- Les questions courantes reçoivent une réponse immédiate, rédigée à partir de la base de connaissances interne de l'entreprise.
+- Les cas sensibles (remboursement, plainte) sont détectés automatiquement et transmis à un agent humain avec le contexte déjà préparé.
+- Les messages parasites (spam, bots) sont filtrés et fermés systématiquement.
 
 **Ce projet montre la capacité à concevoir, assembler et faire fonctionner un système IA complet.**
 
@@ -63,15 +63,15 @@ Email client
                                                   
 ![Architecture du workflow](assets/workflow.png)
 
-### Flux détaillé
+### Processus détaillé
 
-1. Un email client arrive via l'API.
-2. Le ticket est enregistré en base et publié dans la file d'attente Redis.
+1. Un ticket client est envoyé sur l'endpoint de l'API (pouvant être automatiquement transmis à l'aide d'un webhook)
+2. Le ticket est enregistré daans la base de données et publié dans la file d'attente Redis.
 3. Le worker Celery consomme la tâche et lance le moteur de workflow.
 4. Trois agents IA s'exécutent **en parallèle** : classification de l'intention, détection de spam, validation.
 5. Le routeur lit les résultats et choisit le traitement adapté.
-6. Pour les questions courantes, le système recherche dans la base de connaissances les 5 passages les plus proches sémantiquement, puis génère une réponse en français. *(C'est ce qu'on appelle le RAG — Retrieval-Augmented Generation : l'IA répond en s'appuyant sur des documents réels, pas en improvisant.)*
-7. La réponse et toutes les métadonnées sont sauvegardées et consultables via l'API.
+6. Pour les demandes plus spécifiques liées à l'entreprise, le système recherche dans la base de connaissances les 5 passages les plus proches sémantiquement, puis génère une réponse. *(principe du RAG — Retrieval-Augmented Generation)*
+7. La réponse et toutes les métadonnées sont sauvegardées et consultables via l'endpoint de l'API.
 
 ---
 
