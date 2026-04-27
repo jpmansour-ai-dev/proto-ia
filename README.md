@@ -1,6 +1,6 @@
 # Support Client IA
 
-**Automatisation du traitement de tickets client par IA — démonstrateur technique complet**
+**Prototype fonctionnel : système complet de traitement automatique des tickets client**
 
 ![Python](https://img.shields.io/badge/Python-3.13%2B-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.123-009688)
@@ -9,11 +9,11 @@
 
 ---
 
-## C'est quoi ?
+## Contexte
 
-Un Proof of Concept (POC) qui automatise le traitement des tickets client. Un email client entre dans le système, trois analyses IA s'exécutent simultanément, et le ticket ressort avec une réponse rédigée automatiquement — ou transmis à un agent humain si le cas le nécessite. Chaque décision est tracée et consultable via API.
+Ce projet est un Proof of Concept (POC) démontrant l'automatisation complète du traitement des tickets client. À la réception d'un email, trois analyses IA sont lancées en parallèle : classification, identification des tickets prioritaires, et génération de réponse. Le ticket est ensuite traité automatiquement ou escaladé à un agent humain selon le contexte. Chaque décision est tracée et accessible via l'API
 
-> *Projet de démonstration — non déployé en production. L'objectif est de prouver que chaque composant fonctionne, que l'architecture est solide et scalable.*
+> *Ce prototype n'est pas en production. Il vise à prouver  que chaque composant fonctionne, que l'architecture est solide et scalable.*
 
 ---
 
